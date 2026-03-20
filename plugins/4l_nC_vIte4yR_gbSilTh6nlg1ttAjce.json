@@ -1,0 +1,1242 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-day-planner",
+        "version": "1.0.0",
+        "title": "Day Planner",
+        "description": "Day Planner Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.28.0",
+        "author": "九渊"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "更改已保存。",
+                    "target": "更改已保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "这是时间标尺中使用的格式。使用“H”表示 24 小时制；使用“h”表示 12 小时制。你的当前语法看起来像这样： ",
+                    "target": "这是时间标尺中使用的格式。使用“H”表示 24 小时制；使用“h”表示 12 小时制。你的当前语法看起来像这样： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "当你使用拖放方式创建或编辑任务时，插件使用这种格式。使用 “HH:mm” 表示 24 小时制；使用 “hh:mm” 表示 12 小时制。你的当前语法看起来像这样： ",
+                    "target": "当你使用拖放方式创建或编辑任务时，插件使用这种格式。使用 “HH:mm” 表示 24 小时制；使用 “hh:mm” 表示 12 小时制。你的当前语法看起来像这样： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "你的当前语法看起来像这样：",
+                    "target": "你的当前语法看起来像这样："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch tasks from dataview source: ",
+                    "target": "Failed to fetch tasks from dataview source: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to render markdown. ",
+                    "target": "Failed to render markdown. "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "No custom weekly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "No custom monthly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "No custom quarterly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "No custom yearly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加远程日历",
+                    "target": "添加远程日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加颜色覆盖",
+                    "target": "添加颜色覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开始新任务时显示通知",
+                    "target": "开始新任务时显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指针是否应该持续滚动到视图的中心",
+                    "target": "指针是否应该持续滚动到视图的中心"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "显示时间轴的缩放级别。数字越高，每个任务占用的垂直空间就越大。",
+                    "target": "显示时间轴的缩放级别。数字越高，每个任务占用的垂直空间就越大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "你可以使用自定义状态来实现更高级的工作流程。例如：“- [>] Task”。",
+                    "target": "你可以使用自定义状态来实现更高级的工作流程。例如：“- [>] Task”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "时间线窗格的图标。重新打开时间线窗格或重新启动 Obsidian 以查看更改。",
+                    "target": "时间线窗格的图标。重新打开时间线窗格或重新启动 Obsidian 以查看更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "计划程序将在每天的这个时间开始",
+                    "target": "计划程序将在每天的这个时间开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当你在文件中创建一个计划器时，将使用这种级别的标题。",
+                    "target": "当你在文件中创建一个计划器时，将使用这种级别的标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "“没有结束时间” 时，指的是 “- [ ] 10:00 Wake up” 这种形式，即只有一个时间点表示醒来的时间，而不是 “- [ ] 10:00 - 11:00 Wake up” 这种有开始时间和结束时间范围的形式。",
+                    "target": "“没有结束时间” 时，指的是 “- [ ] 10:00 Wake up” 这种形式，即只有一个时间点表示醒来的时间，而不是 “- [ ] 10:00 - 11:00 Wake up” 这种有开始时间和结束时间范围的形式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在编辑时，任务将会四舍五入到这个数字",
+                    "target": "在编辑时，任务将会四舍五入到这个数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当你使用拖放创建任务以及当你没有指定结束时间的时候使用。",
+                    "target": "当你使用拖放创建任务以及当你没有指定结束时间的时候使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当你使用拖放方式创建任务时使用",
+                    "target": "当你使用拖放方式创建任务时使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果计划时间表应该是基于一天中的时间来确定任务是单色显示还是彩色显示。",
+                    "target": "如果计划时间表应该是基于一天中的时间来确定任务是单色显示还是彩色显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "更新后显示发行说明",
+                    "target": "更新后显示发行说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "任务通知",
+                    "target": "任务通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在时间线视图中居中指针",
+                    "target": "在时间线视图中居中指针"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在进行编辑后，按时间顺序对计划器中的任务进行排序",
+                    "target": "在进行编辑后，按时间顺序对计划器中的任务进行排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建时的事件格式",
+                    "target": "创建时的事件格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "时间轴缩放级别",
+                    "target": "时间轴缩放级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建时的默认任务状态",
+                    "target": "创建时的默认任务状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "时间线图标",
+                    "target": "时间线图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "开始小时",
+                    "target": "开始小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "一周的第一天",
+                    "target": "一周的第一天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "用颜色标记日历",
+                    "target": "用颜色标记日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "将这段文本添加到此日历中的事件前面。",
+                    "target": "将这段文本添加到此日历中的事件前面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "你的电子邮件地址，用于显示 “暂定”/“需要行动”/“已拒绝” 标记。",
+                    "target": "你的电子邮件地址，用于显示 “暂定”/“需要行动”/“已拒绝” 标记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "远程日历网址",
+                    "target": "远程日历网址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "小时格式",
+                    "target": "小时格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认时间戳格式",
+                    "target": "默认时间戳格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "时间线标题中的日期格式",
+                    "target": "时间线标题中的日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "计划标题文本",
+                    "target": "计划标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "计划标题级别",
+                    "target": "计划标题级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示活动任务",
+                    "target": "显示活动任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示即将来临的任务",
+                    "target": "显示即将来临的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task progress indicator",
+                    "target": "Task progress indicator"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在时间线中任务文本旁边显示时间戳",
+                    "target": "在时间线中任务文本旁边显示时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "如果任务没有结束时间，则将其延伸至时间线上的下一个任务",
+                    "target": "如果任务没有结束时间，则将其延伸至时间线上的下一个任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "将时间四舍五入到分钟",
+                    "target": "将时间四舍五入到分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认任务时长",
+                    "target": "默认任务时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "最小任务持续时间",
+                    "target": "最小任务持续时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用多彩时间线",
+                    "target": "启用多彩时间线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "多彩时间线 - 起始颜色",
+                    "target": "多彩时间线 - 起始颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "彩色时间线 - 结束颜色",
+                    "target": "彩色时间线 - 结束颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "为空",
+                    "target": "为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "不显示名称",
+                    "target": "不显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "邮件地址",
+                    "target": "邮件地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "网址",
+                    "target": "网址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "文本",
+                    "target": "文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clock out",
+                    "target": "Clock out"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Cancel clock",
+                    "target": "Cancel clock"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clock in",
+                    "target": "Clock in"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "整周",
+                    "target": "整周"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "工作周",
+                    "target": "工作周"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "3 天",
+                    "target": "3 天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reveal task in file",
+                    "target": "Reveal task in file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "重新同步互联网日历",
+                    "target": "重新同步互联网日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "打开多日计划器",
+                    "target": "打开多日计划器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "打开今天的日记。",
+                    "target": "打开今天的日记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除颜色覆盖",
+                    "target": "删除颜色覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Day should not be undefined on edit",
+                    "target": "Day should not be undefined on edit"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "读取日报模板失败",
+                    "target": "读取日报模板失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建新文件。",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "光标下没有列表",
+                    "target": "光标下没有列表"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "编辑已取消",
+                    "target": "编辑已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tasks changed externally; edit canceled",
+                    "target": "Tasks changed externally; edit canceled"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active clocks found",
+                    "target": "No active clocks found"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移动块",
+                    "target": "移动块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "复制块",
+                    "target": "复制块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移动块并推动相邻块",
+                    "target": "移动块并推动相邻块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移动块并收缩相邻块",
+                    "target": "移动块并收缩相邻块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "调整块大小",
+                    "target": "调整块大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "调整块大小并推送相邻块",
+                    "target": "调整块大小并推送相邻块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "调整块大小并缩小相邻块",
+                    "target": "调整块大小并缩小相邻块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "打开一天的笔记",
+                    "target": "打开一天的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "更改列",
+                    "target": "更改列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "显示当前期间",
+                    "target": "显示当前期间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "显示下一时段",
+                    "target": "显示下一时段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "显示上一时段",
+                    "target": "显示上一时段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Go to today",
+                    "target": "Go to today"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转到前一天",
+                    "target": "转到前一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转到下一天",
+                    "target": "转到下一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转到文件",
+                    "target": "转到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "设置",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aborted due to condition callback returning false.",
+                    "target": "Aborted due to condition callback returning false."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "注意",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动链接",
+                    "target": "自动链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "Anno Domini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "Before Christ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设置",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制",
+                    "target": "复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示时间轴",
+                    "target": "显示时间轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示周计划",
+                    "target": "显示周计划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示多天计划",
+                    "target": "显示多天计划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开今天的日程计划",
+                    "target": "打开今天的日程计划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "按时间排序光标下的任务",
+                    "target": "按时间排序光标下的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clock in",
+                    "target": "Clock in"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clock out",
+                    "target": "Clock out"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cancel clock",
+                    "target": "Cancel clock"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重新同步任务",
+                    "target": "重新同步任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to active clock",
+                    "target": "Jump to active clock"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "撤销",
+                    "target": "撤销"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "远程日历",
+                    "target": "远程日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "日期& 时间 格式",
+                    "target": "日期& 时间 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "格式参考",
+                    "target": "格式参考"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "日记小标题",
+                    "target": "日记小标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只有这个标题（及其子标题）下的项目才会从日常笔记中提取出来。",
+                    "target": "只有这个标题（及其子标题）下的项目才会从日常笔记中提取出来。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如果留空，插件将从日常笔记中提取所有项目。",
+                    "target": "如果留空，插件将从日常笔记中提取所有项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在使用拖放创建计划时也会被使用",
+                    "target": "在使用拖放创建计划时也会被使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "状态栏小部件",
+                    "target": "状态栏小部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "任务装饰",
+                    "target": "任务装饰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "时长",
+                    "target": "时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "色彩拼接",
+                    "target": "色彩拼接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "为包含一些文本的块定义一个背景颜色（它可能是一个标签，如 “#important”）。第一种颜色用于浅色模式，第二种颜色用于深色模式。",
+                    "target": "为包含一些文本的块定义一个背景颜色（它可能是一个标签，如 “#important”）。第一种颜色用于浅色模式，第二种颜色用于深色模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "多彩时间轴",
+                    "target": "多彩时间轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "需要创建文件",
+                    "target": "需要创建文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "活跃时钟",
+                    "target": "活跃时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Unscheduled tasks",
+                    "target": "Unscheduled tasks"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(\"更改已保存。\")",
+                    "target": "appendText(\"更改已保存。\")"
+                },
+                {
+                    "source": "setTitle(\"Clock out\")",
+                    "target": "setTitle(\"Clock out\")"
+                },
+                {
+                    "source": "setTitle(\"Cancel clock\")",
+                    "target": "setTitle(\"Cancel clock\")"
+                },
+                {
+                    "source": "setTitle(\"Clock in\")",
+                    "target": "setTitle(\"Clock in\")"
+                },
+                {
+                    "source": "setTitle(\"整周\")",
+                    "target": "setTitle(\"整周\")"
+                },
+                {
+                    "source": "setTitle(\"工作周\")",
+                    "target": "setTitle(\"工作周\")"
+                },
+                {
+                    "source": "setTitle(\"3 天\")",
+                    "target": "setTitle(\"3 天\")"
+                },
+                {
+                    "source": "setTitle(\"Reveal task in file\")",
+                    "target": "setTitle(\"Reveal task in file\")"
+                },
+                {
+                    "source": "setName(\"更新后显示发行说明\")",
+                    "target": "setName(\"更新后显示发行说明\")"
+                },
+                {
+                    "source": "setName(\"任务通知\")",
+                    "target": "setName(\"任务通知\")"
+                },
+                {
+                    "source": "setDesc(\"开始新任务时显示通知\")",
+                    "target": "setDesc(\"开始新任务时显示通知\")"
+                },
+                {
+                    "source": "setName(\"在时间线视图中居中指针\")",
+                    "target": "setName(\"在时间线视图中居中指针\")"
+                },
+                {
+                    "source": "setDesc(\"指针是否应该持续滚动到视图的中心\")",
+                    "target": "setDesc(\"指针是否应该持续滚动到视图的中心\")"
+                },
+                {
+                    "source": "setName(\"在进行编辑后，按时间顺序对计划器中的任务进行排序\")",
+                    "target": "setName(\"在进行编辑后，按时间顺序对计划器中的任务进行排序\")"
+                },
+                {
+                    "source": "setName(\"创建时的事件格式\")",
+                    "target": "setName(\"创建时的事件格式\")"
+                },
+                {
+                    "source": "setName(\"时间轴缩放级别\")",
+                    "target": "setName(\"时间轴缩放级别\")"
+                },
+                {
+                    "source": "setDesc(\"显示时间轴的缩放级别。数字越高，每个任务占用的垂直空间就越大。\")",
+                    "target": "setDesc(\"显示时间轴的缩放级别。数字越高，每个任务占用的垂直空间就越大。\")"
+                },
+                {
+                    "source": "setName(\"创建时的默认任务状态\")",
+                    "target": "setName(\"创建时的默认任务状态\")"
+                },
+                {
+                    "source": "setDesc(\"你可以使用自定义状态来实现更高级的工作流程。例如：“- [>] Task”。\")",
+                    "target": "setDesc(\"你可以使用自定义状态来实现更高级的工作流程。例如：“- [>] Task”。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"为空\")",
+                    "target": "setPlaceholder(\"为空\")"
+                },
+                {
+                    "source": "setName(\"时间线图标\")",
+                    "target": "setName(\"时间线图标\")"
+                },
+                {
+                    "source": "setDesc(\"时间线窗格的图标。重新打开时间线窗格或重新启动 Obsidian 以查看更改。\")",
+                    "target": "setDesc(\"时间线窗格的图标。重新打开时间线窗格或重新启动 Obsidian 以查看更改。\")"
+                },
+                {
+                    "source": "setName(\"开始小时\")",
+                    "target": "setName(\"开始小时\")"
+                },
+                {
+                    "source": "setDesc(\"计划程序将在每天的这个时间开始\")",
+                    "target": "setDesc(\"计划程序将在每天的这个时间开始\")"
+                },
+                {
+                    "source": "setName(\"一周的第一天\")",
+                    "target": "setName(\"一周的第一天\")"
+                },
+                {
+                    "source": "setName(\"用颜色标记日历\")",
+                    "target": "setName(\"用颜色标记日历\")"
+                },
+                {
+                    "source": "setName(\"将这段文本添加到此日历中的事件前面。\")",
+                    "target": "setName(\"将这段文本添加到此日历中的事件前面。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"不显示名称\")",
+                    "target": "setPlaceholder(\"不显示名称\")"
+                },
+                {
+                    "source": "setName(\"你的电子邮件地址，用于显示 “暂定”/“需要行动”/“已拒绝” 标记。\")",
+                    "target": "setName(\"你的电子邮件地址，用于显示 “暂定”/“需要行动”/“已拒绝” 标记。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"邮件地址\")",
+                    "target": "setPlaceholder(\"邮件地址\")"
+                },
+                {
+                    "source": "setName(\"远程日历网址\")",
+                    "target": "setName(\"远程日历网址\")"
+                },
+                {
+                    "source": "setPlaceholder(\"网址\")",
+                    "target": "setPlaceholder(\"网址\")"
+                },
+                {
+                    "source": "setButtonText(`删除日历  ${o+1}`)",
+                    "target": "setButtonText(`删除日历  ${o+1}`)"
+                },
+                {
+                    "source": "setButtonText(\"添加远程日历\")",
+                    "target": "setButtonText(\"添加远程日历\")"
+                },
+                {
+                    "source": "setName(\"小时格式\")",
+                    "target": "setName(\"小时格式\")"
+                },
+                {
+                    "source": "appendText(\"这是时间标尺中使用的格式。使用“H”表示 24 小时制；使用“h”表示 12 小时制。你的当前语法看起来像这样： \")",
+                    "target": "appendText(\"这是时间标尺中使用的格式。使用“H”表示 24 小时制；使用“h”表示 12 小时制。你的当前语法看起来像这样： \")"
+                },
+                {
+                    "source": "setName(\"默认时间戳格式\")",
+                    "target": "setName(\"默认时间戳格式\")"
+                },
+                {
+                    "source": "appendText(\"当你使用拖放方式创建或编辑任务时，插件使用这种格式。使用 “HH:mm” 表示 24 小时制；使用 “hh:mm” 表示 12 小时制。你的当前语法看起来像这样： \")",
+                    "target": "appendText(\"当你使用拖放方式创建或编辑任务时，插件使用这种格式。使用 “HH:mm” 表示 24 小时制；使用 “hh:mm” 表示 12 小时制。你的当前语法看起来像这样： \")"
+                },
+                {
+                    "source": "setName(\"时间线标题中的日期格式\")",
+                    "target": "setName(\"时间线标题中的日期格式\")"
+                },
+                {
+                    "source": "appendText(\"你的当前语法看起来像这样：\")",
+                    "target": "appendText(\"你的当前语法看起来像这样：\")"
+                },
+                {
+                    "source": "setName(\"计划标题文本\")",
+                    "target": "setName(\"计划标题文本\")"
+                },
+                {
+                    "source": "setName(\"计划标题级别\")",
+                    "target": "setName(\"计划标题级别\")"
+                },
+                {
+                    "source": "setDesc(\"当你在文件中创建一个计划器时，将使用这种级别的标题。\")",
+                    "target": "setDesc(\"当你在文件中创建一个计划器时，将使用这种级别的标题。\")"
+                },
+                {
+                    "source": "setName(\"显示活动任务\")",
+                    "target": "setName(\"显示活动任务\")"
+                },
+                {
+                    "source": "setName(\"显示即将来临的任务\")",
+                    "target": "setName(\"显示即将来临的任务\")"
+                },
+                {
+                    "source": "setName(\"Task progress indicator\")",
+                    "target": "setName(\"Task progress indicator\")"
+                },
+                {
+                    "source": "setName(\"在时间线中任务文本旁边显示时间戳\")",
+                    "target": "setName(\"在时间线中任务文本旁边显示时间戳\")"
+                },
+                {
+                    "source": "setName(\"如果任务没有结束时间，则将其延伸至时间线上的下一个任务\")",
+                    "target": "setName(\"如果任务没有结束时间，则将其延伸至时间线上的下一个任务\")"
+                },
+                {
+                    "source": "setDesc('“没有结束时间” 时，指的是 “- [ ] 10:00 Wake up” 这种形式，即只有一个时间点表示醒来的时间，而不是 “- [ ] 10:00 - 11:00 Wake up” 这种有开始时间和结束时间范围的形式。')",
+                    "target": "setDesc('“没有结束时间” 时，指的是 “- [ ] 10:00 Wake up” 这种形式，即只有一个时间点表示醒来的时间，而不是 “- [ ] 10:00 - 11:00 Wake up” 这种有开始时间和结束时间范围的形式。')"
+                },
+                {
+                    "source": "setName(\"将时间四舍五入到分钟\")",
+                    "target": "setName(\"将时间四舍五入到分钟\")"
+                },
+                {
+                    "source": "setDesc(\"在编辑时，任务将会四舍五入到这个数字\")",
+                    "target": "setDesc(\"在编辑时，任务将会四舍五入到这个数字\")"
+                },
+                {
+                    "source": "setName(\"默认任务时长\")",
+                    "target": "setName(\"默认任务时长\")"
+                },
+                {
+                    "source": "setDesc(\"当你使用拖放创建任务以及当你没有指定结束时间的时候使用。\")",
+                    "target": "setDesc(\"当你使用拖放创建任务以及当你没有指定结束时间的时候使用。\")"
+                },
+                {
+                    "source": "setName(\"最小任务持续时间\")",
+                    "target": "setName(\"最小任务持续时间\")"
+                },
+                {
+                    "source": "setDesc(\"当你使用拖放方式创建任务时使用\")",
+                    "target": "setDesc(\"当你使用拖放方式创建任务时使用\")"
+                },
+                {
+                    "source": "setName(`颜色 ${o+1}`)",
+                    "target": "setName(`颜色 ${o+1}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"文本\")",
+                    "target": "setPlaceholder(\"文本\")"
+                },
+                {
+                    "source": "setTooltip(\"删除颜色覆盖\")",
+                    "target": "setTooltip(\"删除颜色覆盖\")"
+                },
+                {
+                    "source": "setButtonText(\"添加颜色覆盖\")",
+                    "target": "setButtonText(\"添加颜色覆盖\")"
+                },
+                {
+                    "source": "setName(\"启用多彩时间线\")",
+                    "target": "setName(\"启用多彩时间线\")"
+                },
+                {
+                    "source": "setDesc(\"如果计划时间表应该是基于一天中的时间来确定任务是单色显示还是彩色显示。\")",
+                    "target": "setDesc(\"如果计划时间表应该是基于一天中的时间来确定任务是单色显示还是彩色显示。\")"
+                },
+                {
+                    "source": "setName(\"多彩时间线 - 起始颜色\")",
+                    "target": "setName(\"多彩时间线 - 起始颜色\")"
+                },
+                {
+                    "source": "setName(\"彩色时间线 - 结束颜色\")",
+                    "target": "setName(\"彩色时间线 - 结束颜色\")"
+                },
+                {
+                    "source": "setTitle(\"重新同步互联网日历\")",
+                    "target": "setTitle(\"重新同步互联网日历\")"
+                },
+                {
+                    "source": "setTitle(\"打开多日计划器\")",
+                    "target": "setTitle(\"打开多日计划器\")"
+                },
+                {
+                    "source": "setTitle(\"打开今天的日记。\")",
+                    "target": "setTitle(\"打开今天的日记。\")"
+                },
+                {
+                    "source": "error(\"Failed to fetch tasks from dataview source: \",s),z([])})})}function se0({workspaceFacade:e,startEdit:t,editOperation:n,settings:o,pointerDateTime:r}){function M(){const s=Oe(r).dateTime;if(!s)throw new Error(\"Day cannot be undefined on edit\")",
+                    "target": "error(\"Failed to fetch tasks from dataview source: \",s),z([])})})}function se0({workspaceFacade:e,startEdit:t,editOperation:n,settings:o,pointerDateTime:r}){function M(){const s=Oe(r).dateTime;if(!s)throw new Error(\"Day cannot be undefined on edit\")"
+                },
+                {
+                    "source": "Notice(`无法阅读每日笔记。原因:${t}`)",
+                    "target": "Notice(`无法阅读每日笔记。原因:${t}`)"
+                },
+                {
+                    "source": "Notice(\"光标下没有列表\")",
+                    "target": "Notice(\"光标下没有列表\")"
+                },
+                {
+                    "source": "Notice(\"编辑已取消\")",
+                    "target": "Notice(\"编辑已取消\")"
+                },
+                {
+                    "source": "Notice(\"Tasks changed externally; edit canceled\")",
+                    "target": "Notice(\"Tasks changed externally; edit canceled\")"
+                },
+                {
+                    "source": "Notice(\"No active clocks found\")",
+                    "target": "Notice(\"No active clocks found\")"
+                },
+                {
+                    "source": "name:\"注意\"",
+                    "target": "name:\"注意\""
+                },
+                {
+                    "source": "name:\"自动链接\"",
+                    "target": "name:\"自动链接\""
+                },
+                {
+                    "source": "text:`${il(Qr(e.text))}\n${rC(pm(e.text)).trimStart()}`",
+                    "target": "text:`${il(Qr(e.text))}\n${rC(pm(e.text)).trimStart()}`"
+                },
+                {
+                    "source": "text:`${e.text.trimEnd()}\n${px()}`",
+                    "target": "text:`${e.text.trimEnd()}\n${px()}`"
+                },
+                {
+                    "source": "text:\"取消\"",
+                    "target": "text:\"取消\""
+                },
+                {
+                    "source": "text:\"撤销\"",
+                    "target": "text:\"撤销\""
+                },
+                {
+                    "source": "text:`The following files need to be created: ${R.join(\"; \")}`",
+                    "target": "text:`The following files need to be created: ${R.join(\"; \")}`"
+                },
+                {
+                    "source": "name:\"Anno Domini\"",
+                    "target": "name:\"Anno Domini\""
+                },
+                {
+                    "source": "name:\"Before Christ\"",
+                    "target": "name:\"Before Christ\""
+                },
+                {
+                    "source": "name:\"设置\"",
+                    "target": "name:\"设置\""
+                },
+                {
+                    "source": "name:\"复制\"",
+                    "target": "name:\"复制\""
+                },
+                {
+                    "source": "name:\"信息\"",
+                    "target": "name:\"信息\""
+                },
+                {
+                    "source": "name: \"+e)};M1.autodetect.push({p:5,test:(e,...t)=>{if(!t.length&&h1(e)===\"",
+                    "target": "name: \"+e)};M1.autodetect.push({p:5,test:(e,...t)=>{if(!t.length&&h1(e)===\""
+                },
+                {
+                    "source": "text:\"远程日历\"",
+                    "target": "text:\"远程日历\""
+                },
+                {
+                    "source": "text:`日历 ${o+1}`",
+                    "target": "text:`日历 ${o+1}`"
+                },
+                {
+                    "source": "text:\"日期& 时间 格式\"",
+                    "target": "text:\"日期& 时间 格式\""
+                },
+                {
+                    "source": "text:\"格式参考\"",
+                    "target": "text:\"格式参考\""
+                },
+                {
+                    "source": "text:\"日记小标题\"",
+                    "target": "text:\"日记小标题\""
+                },
+                {
+                    "source": "text:\"只有这个标题（及其子标题）下的项目才会从日常笔记中提取出来。\"",
+                    "target": "text:\"只有这个标题（及其子标题）下的项目才会从日常笔记中提取出来。\""
+                },
+                {
+                    "source": "text:\"如果留空，插件将从日常笔记中提取所有项目。\"",
+                    "target": "text:\"如果留空，插件将从日常笔记中提取所有项目。\""
+                },
+                {
+                    "source": "text:\"在使用拖放创建计划时也会被使用\"",
+                    "target": "text:\"在使用拖放创建计划时也会被使用\""
+                },
+                {
+                    "source": "text:\"状态栏小部件\"",
+                    "target": "text:\"状态栏小部件\""
+                },
+                {
+                    "source": "text:\"任务装饰\"",
+                    "target": "text:\"任务装饰\""
+                },
+                {
+                    "source": "text:\"时长\"",
+                    "target": "text:\"时长\""
+                },
+                {
+                    "source": "text:\"色彩拼接\"",
+                    "target": "text:\"色彩拼接\""
+                },
+                {
+                    "source": "text:\"为包含一些文本的块定义一个背景颜色（它可能是一个标签，如 “#important”）。第一种颜色用于浅色模式，第二种颜色用于深色模式。\"",
+                    "target": "text:\"为包含一些文本的块定义一个背景颜色（它可能是一个标签，如 “#important”）。第一种颜色用于浅色模式，第二种颜色用于深色模式。\""
+                },
+                {
+                    "source": "text:\"多彩时间轴\"",
+                    "target": "text:\"多彩时间轴\""
+                },
+                {
+                    "source": "name:\"显示时间轴\"",
+                    "target": "name:\"显示时间轴\""
+                },
+                {
+                    "source": "name:\"显示周计划\"",
+                    "target": "name:\"显示周计划\""
+                },
+                {
+                    "source": "name:\"显示多天计划\"",
+                    "target": "name:\"显示多天计划\""
+                },
+                {
+                    "source": "name:\"打开今天的日程计划\"",
+                    "target": "name:\"打开今天的日程计划\""
+                },
+                {
+                    "source": "name:\"按时间排序光标下的任务\"",
+                    "target": "name:\"按时间排序光标下的任务\""
+                },
+                {
+                    "source": "name:\"Clock in\"",
+                    "target": "name:\"Clock in\""
+                },
+                {
+                    "source": "name:\"Clock out\"",
+                    "target": "name:\"Clock out\""
+                },
+                {
+                    "source": "name:\"Cancel clock\"",
+                    "target": "name:\"Cancel clock\""
+                },
+                {
+                    "source": "name:\"重新同步任务\"",
+                    "target": "name:\"重新同步任务\""
+                },
+                {
+                    "source": "name:\"Jump to active clock\"",
+                    "target": "name:\"Jump to active clock\""
+                }
+            ]
+        }
+    }
+}

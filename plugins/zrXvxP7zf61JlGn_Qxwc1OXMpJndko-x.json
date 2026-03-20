@@ -1,0 +1,70 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "homepage",
+        "version": "1.0.0",
+        "title": "Homepage",
+        "description": "Homepage Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.3.1",
+        "author": "九渊"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年笔记设置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New tab",
+                    "target": "新标签页"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "page:\"Open homepage\"",
+                    "target": "page:\"Open homepage\""
+                },
+                {
+                    "source": "page:\"\\u041E\\u0442\\u043A\\u0440\\u044B\\u0442\\u044C \\u0434\\u043E\\u043C\\u0430\\u0448\\u043D\\u044E\\u044E \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0443\"",
+                    "target": "page:\"\\u041E\\u0442\\u043A\\u0440\\u044B\\u0442\\u044C \\u0434\\u043E\\u043C\\u0430\\u0448\\u043D\\u044E\\u044E \\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0443\""
+                }
+            ]
+        }
+    }
+}

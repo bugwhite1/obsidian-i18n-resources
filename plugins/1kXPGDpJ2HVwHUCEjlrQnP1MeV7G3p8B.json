@@ -1,0 +1,132 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-tracker",
+        "version": "1.0.0",
+        "title": "Tracker",
+        "description": "Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.19.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading obsidian-tracker plugin",
+                    "target": "loading obsidian-tracker plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading obsidian-tracker plugin",
+                    "target": "unloading obsidian-tracker plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Files in this folder will be parsed and used as input data of the tracker plugin.\nYou can also override it using 'folder' argument in the tracker codeblock.",
+                    "target": "Files in this folder will be parsed and used as input data of the tracker plugin.\nYou can also override it using 'folder' argument in the tracker codeblock."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This format is used to parse the date in your diary title.\nYou can also override it using 'dateFormat' argument in the tracker codeblock.",
+                    "target": "This format is used to parse the date in your diary title.\nYou can also override it using 'dateFormat' argument in the tracker codeblock."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default folder location",
+                    "target": "Default folder location"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default date format",
+                    "target": "Default date format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder Path",
+                    "target": "Folder Path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Line Chart Tracker",
+                    "target": "Add Line Chart Tracker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Bar Chart Tracker",
+                    "target": "Add Bar Chart Tracker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Summary Tracker",
+                    "target": "Add Summary Tracker"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`threshold: ${u}, thresholdType: ${f}`)",
+                    "target": "log(`threshold: ${u}, thresholdType: ${f}`)"
+                },
+                {
+                    "source": "log(`preValue: ${h}, curValue: ${a}, nextValue: ${c}`)",
+                    "target": "log(`preValue: ${h}, curValue: ${a}, nextValue: ${c}`)"
+                },
+                {
+                    "source": "log(`streakIn: ${d}, streakOut: ${g}`)",
+                    "target": "log(`streakIn: ${d}, streakOut: ${g}`)"
+                },
+                {
+                    "source": "setName(\"Default folder location\")",
+                    "target": "setName(\"Default folder location\")"
+                },
+                {
+                    "source": "setDesc(\"Files in this folder will be parsed and used as input data of the tracker plugin.\\nYou can also override it using 'folder' argument in the tracker codeblock.\")",
+                    "target": "setDesc(\"Files in this folder will be parsed and used as input data of the tracker plugin.\\nYou can also override it using 'folder' argument in the tracker codeblock.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Folder Path\")",
+                    "target": "setPlaceholder(\"Folder Path\")"
+                },
+                {
+                    "source": "setName(\"Default date format\")",
+                    "target": "setName(\"Default date format\")"
+                },
+                {
+                    "source": "setDesc(\"This format is used to parse the date in your diary title.\\nYou can also override it using 'dateFormat' argument in the tracker codeblock.\")",
+                    "target": "setDesc(\"This format is used to parse the date in your diary title.\\nYou can also override it using 'dateFormat' argument in the tracker codeblock.\")"
+                },
+                {
+                    "source": "log(\"loading obsidian-tracker plugin\")",
+                    "target": "log(\"loading obsidian-tracker plugin\")"
+                },
+                {
+                    "source": "log(\"unloading obsidian-tracker plugin\")",
+                    "target": "log(\"unloading obsidian-tracker plugin\")"
+                },
+                {
+                    "source": "name:\"Add Line Chart Tracker\"",
+                    "target": "name:\"Add Line Chart Tracker\""
+                },
+                {
+                    "source": "name:\"Add Bar Chart Tracker\"",
+                    "target": "name:\"Add Bar Chart Tracker\""
+                },
+                {
+                    "source": "name:\"Add Summary Tracker\"",
+                    "target": "name:\"Add Summary Tracker\""
+                }
+            ]
+        }
+    }
+}
